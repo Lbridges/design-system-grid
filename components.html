@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Design System - Grid and Structure</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Core Bootstrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <!-- Custom Styles -->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/component-style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar sticky-top navbar-expand-lg bg-light">
+            <div class="container px-5">
+                <a class="navbar-brand" href="#!">Low Res Design System</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#primaryNav" aria-controls="primaryNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="primaryNav">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portalPage">Portal Page</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#landingPage">Landing Page</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#singlePost">Single Post</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#archive">Archive</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- HERO SECTION -->
+        <section class="home-bg-1">
+            <div class="container hero-content d-flex align-items-center">                
+                <div class="row bg-light p-3">
+                    <div class="col-lg-4">
+                        <p>Custom Classes for This Hero Background Image</p>
+                    </div>
+                    <div class="col-lg-8">
+                        <ul class="no-bullets">
+                            <li><strong>home-bg-1</strong> Attach this class to the section that will span the width of the screen</li>
+                            <li><strong>hero-content</strong> Use this class to target children of the container div in the hero section</li>
+                            <li><strong>col-lg-4 | col-lg-8</strong> This is the column structure for the content inside of this exact hero content container</li>
+                            <li>The col-lg-4 is the div that holds the text that helps define this section. The -lg-4 indicates that this content will stack under 992px</li>
+                            <li>The col-lg-8 div is this whole ul. It is the direct child of <emphasis>div.col-lg-8</emphasis>.</li>
+                            <li>We could target this li with .hero-content li.</li>
+                        </ul>
+                    </div>
+                </div>
+        </section>
+            
+        </div>
+        <!-- Breadcrumbs -->
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb bg-none">
+                  <li class="breadcrumb-item"><a href="#">Home</a></li>
+                  <li class="breadcrumb-item"><a href="#">Library</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Data</li>
+                </ol>
+            </nav>
+        </div>  
+        
+ 
+
+        <!-- Page Content-->
+        <div class="container px-4 px-lg-5">
+            <!-- Heading Row-->
+            <div class="row gx-4 gx-lg-5 align-items-center my-5">
+                <div class="col-lg-7"><img class="img-fluid rounded mb-4 mb-lg-0" src="https://dummyimage.com/900x400/dee2e6/6c757d.jpg" alt="..." /></div>
+                <div class="col-lg-5">
+                    <h1 class="font-weight-light">col-lg-7 col-lg-5</h1>
+                    <p>col-lg-7 for the image section, col-lg-5 for this text section</p>
+                    <p>The row has the classes "gx-4 gx-lg-5 align-items-center my-5". Let's break all of this down.</p>
+                    <ul class="no-bullets">
+                        <li><strong>gx-4</strong></li>
+                        <li><strong>gx-lg-5</strong></li>
+                        <li><strong>align-items-center</strong></li>
+                        <li><strong>my-5</strong></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Call to Action-->
+            <div class="card text-white bg-secondary my-5 py-4 text-center">
+                <div class="card-body"><p class="text-white m-0">my-5 py-4 text-center</p></div>
+            </div>
+            <!-- Content Row-->
+             <!-- 3 CARD ROW -->
+             <div class="row">
+                <div class="col-md-6 mb-5" >
+                    <div class="card home-card h-100">
+                        <div class="card-body">
+                            <h2 class="card-title">Card Class</h2>
+                            <p class="card-text">"card"</p>
+                            <p class="card-text">The heading and text elements are nested in "card-body".</p>
+                            <p class="card-text">The names, respectively, are "card-title" and "card-text"</p>
+                        </div>
+                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">Class btn btn-sm</a></div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-5">
+                    <div class="card home-card h-100">
+                        <div class="card-body">
+                            <h2 class="card-title">Card Two</h2>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod tenetur ex natus at dolorem enim! Nesciunt pariatur voluptatem sunt quam eaque, vel, non in id dolore voluptates quos eligendi labore.</p>
+                        </div>
+                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>
+                    </div>
+                </div>
+            
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h2 class="card-title">Card Class</h2>
+                            <p class="card-text">"card h-100"</p>
+                            <p class="card-text">The heading and text elements are nested in "card-body".</p>
+                            <p class="card-text">The names, respectively, are "card-title" and "card-text"</p>
+                        </div>
+                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">Class btn btn-sm</a></div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h2 class="card-title">Card Two</h2>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod tenetur ex natus at dolorem enim! Nesciunt pariatur voluptatem sunt quam eaque, vel, non in id dolore voluptates quos eligendi labore.</p>
+                        </div>
+                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h2 class="card-title">Card Three</h2>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
+                        </div>
+                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h2 class="card-title">row gx-4 gx-lg-5</h2>
+                            <p class="card-text">col-md-3 mb-4</p>
+                        </div>
+                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">btn-sm</a></div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h2 class="card-title">Card Two</h2>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod tenetur ex natus at dolorem enim! Nesciunt pariatur voluptatem sunt quam eaque, vel, non in id dolore voluptates quos eligendi labore.</p>
+                        </div>
+                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h2 class="card-title">Card Three</h2>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
+                        </div>
+                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h2 class="card-title">Card Three</h2>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
+                        </div>
+                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container px-4 px-lg-5">
+                <div class="row align-items-center my-5">
+                    <div class="col-lg-7">
+                        <p class="text-white">col-lg-7</p>
+                        <p class="text-white">this is a col nested in a row, with class "row align-items-center my-5</p>
+                        <p class="text-white">the row is nested in a container class="px-4 px-lg-5"</p>
+                    </div>
+                    <div class="col-lg-5">
+                        <h1 class="text-white">col-lg-5</h1>
+                        <p class="text-white"><strong>align-items-center</strong></p>
+                        <p class="text-white">Align single rows of items in the center</p>
+                    </div>
+                </div>
+                <p class="m-0 text-center text-white">Copyright &copy; class="container px-4 px-lg-5"</p>
+                <p class="m-0 text-center text-white">Footer class: py-5 bg-dark</p>
+                <p class="m-0 text-center text-white">Footer script: https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"</p>
+            </div>
+             <!-- SubFooter Row-->
+            
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
