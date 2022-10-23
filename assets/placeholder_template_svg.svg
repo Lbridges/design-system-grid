@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1600"
+   height="400"
+   viewBox="0 0 423.33332 105.83333"
+   version="1.1"
+   id="svg5"
+   inkscape:export-filename="1600x400hero.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="placeholder_template_svg.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="0.73851712"
+     inkscape:cx="867.27848"
+     inkscape:cy="345.28651"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#aeaeae;stroke:none;stroke-width:0.336334"
+       id="rect1054"
+       width="425.97467"
+       height="107.83714"
+       x="-1.4330518"
+       y="-1.4330518" />
+    <text
+       xml:space="preserve"
+       style="font-size:35.8255px;font-family:Algerian;-inkscape-font-specification:Algerian;fill:#e3e3e3;stroke:#aeaeae;stroke-width:1.83046"
+       x="129.48625"
+       y="64.380707"
+       id="text113"><tspan
+         sodipodi:role="line"
+         id="tspan111"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';fill:#484848;stroke:none;stroke-width:1.83046"
+         x="129.48625"
+         y="64.380707">1600 x 400</tspan></text>
+  </g>
+</svg>
