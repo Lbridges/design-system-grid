@@ -1,0 +1,23 @@
+/** CARD **/
+
+.boxshadow-min {
+    box-shadow: $boxshadow-min;
+    transition: $boxshadow-min-transition;
+}
+.boxshadow-min:hover {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+/** HOMEPAGE **/
+.jumbotron {
+    background-color: $gray-200;
+}
+.jumbotron h1 {
+    letter-spacing: $md-letter-space;
+}
+
+.subheader {
+    h2 {
+        font-size: $sm-heading;
+    }
+}
+  

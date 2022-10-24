@@ -1,0 +1,35 @@
+/* GENERAL */
+
+body {
+    font-family: $font-stack;
+    font-size: $sm-body;
+}
+ul.no-bullets {
+    list-style: none;
+}
+.no-bullets li {
+    line-height: $tight-lines;
+    margin-bottom: .85rem;
+}
+
+/* PROJECT ORGANIZATION STYLES */
+.bg-page-nav {
+    background-color: $attention;
+}
+.bg-page-nav p {
+    font-size: $xsm-body;
+    line-height: $tight-lines;
+    margin-bottom: .5rem;
+}
+
+/** SITEWIDE **/
+p.lead {
+    letter-spacing: $md-letter-space;;
+}
+.btn-action {
+    background-color: $action-bg;
+    color: $action-color;
+}
+.breadcrumb.bg-none {
+    background-color: #fff;
+}

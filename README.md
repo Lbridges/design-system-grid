@@ -26,10 +26,10 @@ We are using the link structure and layout to guide our visitor where we want th
 ## Contents / Dependencies
 Repo Contains:
 - A page named components for saving unused work, with hopes of future purpose
-- Styles for component scraps are saved in a seprate file.
-- A single page of html with a custom stylesheet.
-- Assets folder for images and placeholders
-- JS folder for scripts
+- Styles for component scraps are saved in a separate file, not compiled
+- A single page of html with custom styles
+- SCSS
+- Bootstrap
 
 ## Practical Applications
 
